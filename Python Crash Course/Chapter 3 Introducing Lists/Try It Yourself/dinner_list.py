@@ -13,3 +13,16 @@ message = ", would you like to join us for dinner?"
 print(f'{dinner_guests[0].title()}{message}')
 print(f'{dinner_guests[1].title()}{message}')
 print(f'{dinner_guests[2].title()}{message}')
+
+# Changing Guest List:
+dinner_guests = ['mark', 'john', 'peter']
+cannot_come = 'mark'
+dinner_guests.remove(cannot_come)
+dinner_guests.insert(0, 'paul')
+# I did the below print to make sure 'paul' was added properly
+# print(dinner_guests)
+message = "can't come, but would you still like to?  I invited Paul."
+print(f"{cannot_come.title()} {message}")
+
+# Moving Guest:
+dinner_guests = ['paul', 'john', 'peter']
