@@ -26,3 +26,8 @@ print(f"{cannot_come.title()} {message}")
 
 # Moving Guest:
 dinner_guests = ['paul', 'john', 'peter']
+dinner_guests.append('marry')
+dinner_guests.append('sarah')
+dinner_guests.append('nancy')
+message = f"Just a heads up, the new list of people coming are {dinner_guests[0:5].title()}."
+print(message)
